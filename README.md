@@ -11,9 +11,8 @@ while(true)
     Console.WriteLine("3 - Apagar Cliente");
     Console.WriteLine("4 - Encerrar");
 
-#pragma warning disable CS8600 // Conversão de literal nula ou possível valor nulo em tipo não anulável.
     opcao = Console.ReadLine();
-#pragma warning restore CS8600 // Conversão de literal nula ou possível valor nulo em tipo não anulável.
+
 
     switch (opcao)
     {
