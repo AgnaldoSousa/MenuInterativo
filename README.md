@@ -1,15 +1,16 @@
-using ExemplosFundamentos.Models;
+{using ExemplosFundamentos.Models;
 
 string opcao;
 
 while(true)
-{
+
     Console.Clear();
     Console.WriteLine("Digite a sua opção");
     Console.WriteLine("1 - Cadastrar Cliente");
     Console.WriteLine("2 - Buscar Cliente");
     Console.WriteLine("3 - Apagar Cliente");
     Console.WriteLine("4 - Encerrar");
+
 
     opcao = Console.ReadLine();
 
